@@ -15,21 +15,21 @@ export const SCROLL_EXPAND_CONFIG: ScrollExpandConfig = {
 } as const
 
 export const PROJECTS: Project[] = [
-  { name: 'Fieldnotes', year: 2020, img: '/img1.jpg' },
+  { name: 'Quentin Hocdé', year: 2020, img: '/quentin.jpg' },
   { name: 'Basic Feather', year: 2021, img: '/basicFeater.jpg' },
-  { name: 'Gallery Walk', year: 2019, img: '/img3.jpg' },
+  { name: 'Crop Farm', year: 2026, img: '/cropTab.png' },
   { name: 'Lando Norris', year: 2022, img: '/lando.jpg' },
   { name: 'Op Intelligence', year: 2023, img: '/op.jpg' },
   { name: 'Backboard', year: 2024, img: '/kpr.jpg' },
   { name: 'Afterglow', year: 2021, img: '/redefine.jpg' },
-  { name: 'Hill House', year: 2020, img: '/img8.jpg' },
+  { name: 'Expert Digital ', year: 2026, img: '/expert.jpg' },
   { name: 'Mont Fort', year: 2018, img: '/montfort.jpg' },
-  { name: 'Timepiece', year: 2019, img: '/img10.jpg' },
+  { name: 'King Ohoi', year: 2019, img: '/king.png' },
   { name: 'Sentimental Value', year: 2022, img: '/sentimentalValue.jpg' },
   { name: 'Salin 11', year: 2023, img: '/ahh.jpg' },
   { name: 'Haggar', year: 2024, img: '/haggar.png' },
   { name: 'Deep Red', year: 2021, img: '/anime.png' },
-  { name: 'Fast Track', year: 2022, img: '/img15.jpg' },
+  { name: 'Homes with Sense', year: 2026, img: '/homes.jpg' },
   { name: 'The Line', year: 2025, img: '/theLine.jpeg' },
 ]
 
