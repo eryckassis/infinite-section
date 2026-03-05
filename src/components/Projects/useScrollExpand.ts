@@ -25,6 +25,8 @@ export function useScrollExpand(totalRows: number) {
     const sectionPadding = parseFloat(getComputedStyle(section).paddingTop) || 0
 
     function recalculate() {
+      if (!section) return
+
       const isMobile = window.innerWidth < SCROLL_EXPAND_CONFIG.mobileBreakpoint
 
       rowStartWidth.current = isMobile
@@ -81,7 +83,7 @@ export function useScrollExpand(totalRows: number) {
     const handleResize = () => {
       recalculate()
     }
-    
+
     window.addEventListener('resize', handleResize)
 
     return () => {
