@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
   { name: 'Crop Farm', year: 2026, img: '/cropTab.png' },
   { name: 'Lando Norris', year: 2022, img: '/lando.jpg' },
   { name: 'Op Intelligence', year: 2023, img: '/op.jpg' },
-  { name: 'Backboard', year: 2024, img: '/kpr.jpg' },
+  { name: 'Backboard', year: 2024, img: '/kpr.jpg', video: '/kpr.mp4' },
   { name: 'Afterglow', year: 2021, img: '/redefine.jpg' },
   { name: 'Expert Digital ', year: 2026, img: '/expert.jpg' },
   { name: 'Mont Fort', year: 2018, img: '/montfort.jpg' },

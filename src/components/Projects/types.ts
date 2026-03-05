@@ -2,7 +2,7 @@ export interface Project {
   readonly name: string
   readonly year: number
   readonly img: string
-  readonly href: string
+  readonly video?: string
 }
 
 export interface WidthRange {
